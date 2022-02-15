@@ -5,22 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#000000"
     android:padding="20dp"
-    android:gravity="center"
-    tools:context=".OtherActivity">
+    tools:context=".ViewMessageActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="여기는 다른 화면입니다."
-        android:textColor="#FFFFFF"
-        android:textSize="20sp"/>
-
-    <Button
-        android:id="@+id/btnReturnToMain"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="메인 화면으로 돌아가기"/>
+        android:text="전달받은 내용이 표시됩니다."/>
 
 </LinearLayout>
