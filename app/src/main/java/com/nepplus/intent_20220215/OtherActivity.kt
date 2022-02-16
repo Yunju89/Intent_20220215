@@ -11,12 +11,13 @@ class OtherActivity : AppCompatActivity() {
         setContentView(R.layout.activity_other)
 
 //        돌아가는 경우에는 Intent 활용 x
-//        btnReturnToMain.setOnClickListener {
+        btnReturnToMain.setOnClickListener {
 //            val myIntent = Intent(this, MainActivity::class.java)
 //            startActivity(myIntent)
-//        }
-
             finish()
+        }
+
+
 
 
 
